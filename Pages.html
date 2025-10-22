@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="referrer" content="no-referrer">
+  <title>Embed GitHub User Attachment</title>
+  <style>
+    body { font-family: system-ui, Arial, sans-serif; margin: 0; padding: 2rem; background: #f6f7f9; }
+    .wrap { max-width: 820px; margin: 0 auto; }
+    .player { background: #000; border-radius: 12px; overflow: hidden; box-shadow: 0 6px 24px rgba(0,0,0,.08); }
+    video { width: 100%; height: auto; display: block; }
+    .note { margin-top: .75rem; color: #444; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Video Embed</h1>
+
+    <div class="player">
+      <video
+        controls
+        playsinline
+        preload="metadata"
+        referrerpolicy="no-referrer"
+        src="https://github.com/user-attachments/assets/c18e1315-b245-4765-a84d-354a64933aaa">
+      </video>
+    </div>
+
+    <p class="note">
+      If the player doesn’t start, <a href="https://github.com/user-attachments/assets/c18e1315-b245-4765-a84d-354a64933aaa">open the video directly</a>.
+    </p>
+  </div>
+</body>
+</html>
